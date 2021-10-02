@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <title>iS-Store</title>
+    </head>
+
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+        }
+
+        .card {
+            margin: 20px;
+        }
+
+        .card-deck {
+            margin: 20px;
+            max-width: 100%;
+        }
+
+        #footer {
+            margin-right: 30px;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        @media (min-width: 576px) {
+            .card-deck {
+                display: -ms-flexbox;
+                display: flex;
+                justify-content: center;
+                -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+        }
+
+    </style>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/aboutus.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </nav>
+
+        <div class="container">-
+            <div class="card-deck" id="cd">
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Minecraft</h5>
+                            <p class="card-text">Explore infinite worlds and build everything from the simplest of...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe"
+                                class="btn btn-primary">Buy</a>
+                            <a href="https://doc-0o-cc-docs.googleusercontent.com/docs/securesc/g10gnfva9gsl10d16hb47jp1q5nnqdra/km8m99mt07qb790kog06sv28goup5kao/1633187175000/00516098801481267163/00516098801481267163/112dJnlO1pCp33rKytGxB4Q7jLGikPV0Q?e=download&authuser=0&nonce=02foi8bo8gtgq&user=00516098801481267163&hash=oc1g5345v576fq6aq969q4aqs3bpko0c"
+                                class="btn btn-primary">Install For Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/3JYmWnF47XCGW29Rd8KlZ4HyeGn8sKttUv2jAObOhNBIEtSATO_74ozmB28patd9884=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Subway Surfers</h5>
+                            <p class="card-text">DASH as fast as you can!
+                                DODGE the oncoming trains!...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/efKMq33-JGjrrZoP7I8UUwby1cX0Tz0tvUVwZ_mQyH4jtY6Z3VmUGaotmYBmly4lkg=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Temple Run 2</h5>
+                            <p class="card-text">With over a zillion downloads, Temple Run redefined ...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.imangi.templerun2"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/L5Qll4f3DlK3SAjEtIjafJrp48NQN1GDKCdmD0mdubci4fMxL907ZkOGknJ1GSoXCpiJ=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sand Balls - Puzzle Game</h5>
+                            <p class="card-text">Catch a ball! Turn right, now a little to the left,...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.water.balls"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/UsAM2h8ot3EnqaURM71aYn5jmm_Uj4wVpyTDlE2y52vbTNyvlZuuR0dRkXwzT_vMzEQ=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hide 'N Seek! Game</h5>
+                            <p class="card-text">The good old classic hide & seek. Play either as a ...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.seenax.HideAndSeek"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/7pbt4KZDcJBWQUAgaXNc-KSv-DJpNmKZa2SlqcxbzJAuMIlJEM_m13UFs3GN5aT0XOo=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tiles Hop: EDM Rush!</h5>
+                            <p class="card-text">HOT! HOT! HOT! Monstercat is going online. Play your favorite...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.amanotes.beathopper"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/3pf26YI4SRN_Uk72hQeHJHbv57xOKOVEThflyjzoM6OegOxEolE8lGCImYz7DC9bv4w=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Stack Ball</h5>
+                            <p class="card-text">Stack Ball - Blast through platforms is a 3d arcade game...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.azurgames.stackball"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/nWk99F4mxv0uyt5Yt5No21uCE4Ah0NwYK6MXfYp1zZg2iFd9ImaeEiu8R8We1iGeHtg=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Join Clash 3D</h5>
+                            <p class="card-text">Epic survival run! Racing adventure that will keep you...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.freeplay.runandfight"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/l2a9Gp8u2O9BJR1yMsd8buVCi8Ai64-O0oc-C8bPfL9Kfqo61Grcp23-a0JgUOyRV2m2=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Save the Buddy</h5>
+                            <p class="card-text">Cut the Rope & Save Them All. Imagine being stuck in a room...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.webfygames.savethebuddy"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/0lIO27b0Ep1SXsJ7nxyGcrQuTJlnkFCHsr_FNFKotNblWMZceA3Kp1t2bzjlXou-UrU=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Marvel Contest of Champions</h5>
+                            <p class="card-text">Prepare for epic versus-fighting ...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.kabam.marvelbattle"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/N0UxhBVUmx8s7y3F7Kqre2AcpXyPDKAp8nHjiPPoOONc_sfugHCYMjBpbUKCMlK_XUs=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hill Climb Racing</h5>
+                            <p class="card-text">Play the original classic Hill Climb Racing!...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.fingersoft.hillclimb"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/7Dxuag0DOqISLtmG_Ze5sl8m-3yHAKbuWqMwNNRi6fnEJsqc42_8ihpTYENM3Z-TEA=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hunter Assassin</h5>
+                            <p class="card-text">Control the assassin and hunt down your targets one by one...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.rubygames.assassin"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/NBlQn8Yf4flwAjGbDG41liN8K0xsYUujCHoSnJXG9VNuQY-cZ_Ge26zX0CzhqPWG3A=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Spinner.io</h5>
+                            <p class="card-text">Very easy to play, extremely fun new run race game...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.suji.spinner"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/EtAYKSp_Ncz-vqaRH6RMWVTwVagwsZGOdelo6qztOwJTEdKcLLvYoWiwyWUj6KBp_ss=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Turbo Stars - Rival Racing</h5>
+                            <p class="card-text">Do you think you have what it takes to be a Turbo Star? Then...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.turbo.stars"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/sCTtUn9FTBYj2HW_i1Y-wN9j9Tk1uui7SsvGDxaeXGWUgoA_k0pQ-iDGnCADnt22kyI=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Angry Birds 2</h5>
+                            <p class="card-text">Join hundreds of millions of players for FREE and start...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.rovio.baba"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/WYHbRJzN0L5TMBNOXT0mMAbF4GqhmBvLiTM1_0JYuZSbvS0MqVzlDX2kQt03rv1a_Ws=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bridge Race</h5>
+                            <p class="card-text">Collect logs of your own color, place them on a bridge of your...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.Garawell.BridgeRace"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/CW-4I9bIDgfZnjQD9QubTRc2z7sTaYoKNDLY8Xr6G6xxDLKYQW7h0eVifzHtvtOJESE=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bike Race：Free Style Games</h5>
+                            <p class="card-text">VRace and have fun against...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.topfreegames.bikeracefreeworld"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/Z3OE_n8twKkN7lVxMK6sHu3gdeC58voirekhsutXRrlLNNNRAU7-eVstmyW4FccG6w=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Perfect Slices</h5>
+                            <p class="card-text">Chop like a real master. It's so satisfying!...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.perfect.slices"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/jwL7aqLp7v_7owPxf30e41MCggN-ot3MeP3zxbIMVKdiGkUs33jmGW7c7QmYxMFamHSj=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BATTLEGROUNDS MOBILE INDIA</h5>
+                            <p class="card-text">Welcome India, to 1.6.0 update ...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.slippy.linerusher"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/oCnjyeyfmVb9Urj7nhghZSsos5LOKPip7vwAYxWoDvLB94H-X-2Wt9LuJy_CjicqkQ=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Call of Duty</h5>
+                            <p class="card-text">Official CALL OF DUTY designed exclusively for mobile ...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/5s0CaOUV8JIYQioNQh11s88WS2zZ15Lgo1J6Jf9_fkw6IPvsa3IhA8t8Ngl6K8PPiFo=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Color Fill 3D</h5>
+                            <p class="card-text">Very easy to play, extremely fun new run race game...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.gjg.colorfill3d"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/cCFIYdSvfkyA-VWF1TayAXK4NgM2yZOYJ4ZKJEDpxJBeWuyOUFaBLhWTGbEcgA0zht0=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Color Hole 3D</h5>
+                            <p class="card-text">Very easy to play, extremely fun new run race game...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.slippy.linerusher"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSection">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://play-lh.googleusercontent.com/BYSxC-d7pALHdjF6yl7rZGJ0MKoawF734d-IJaLIZ2EQGvoR1bgtiZT2e5gFdCaoK_k=s180-rw"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Garena Free Fire MAX</h5>
+                            <p class="card-text">Free Fire MAX is designed exclusively to deliver premium gameplay...
+                            </p>
+                            <a href="https://play.google.com/store/apps/details?id=com.dts.freefiremax"
+                                class="btn btn-primary">Install</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" /></svg>
+                </a>
+                <span class="text-muted">&copy; 2021 Company, Inc</span>
+            </div>
+        </footer>
+
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script>
+        let search = document.getElementById( 'search' )
+        search.addEventListener( "input", function ()
+        {
+            let inputVal = search.value
+            let noteCards = document.getElementsByClassName( 'card' )
+            Array.from( noteCards ).forEach( function ( element )
+            {
+                let cardTxt = element.getElementsByTagName( 'h5' )[ 0 ].innerText
+                console.log( element );
+
+                if ( cardTxt.includes( inputVal ) )
+                {
+                    element.style.display = 'block'
+                }
+                else
+                {
+                    element.style.display = 'none'
+                }
+            } )
+        } )
+    </script>
+
+</html>
